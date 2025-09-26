@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+body {
+  background-color: gray;
+}
+
+.header-left {
+  background-color: black;
+  height: 80px;
+}
+
+.header-right {
+  color: white;
+  text-decoration: none;
+}
+
+ul > li {
+  display: inline;
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: rgb(3, 3, 104);
+  border-radius: 20px;
+}
+
+.kroppen-vänster {
+  padding: 30px;
+  width: 40%;
+}
+
+.kroppen-höger img {
+  width: 350px;
+  height: 350px;
+}
+
+.kroppen {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.E a {
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(3, 3, 104);
+  text-decoration: none;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.text {
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.E2 {
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(3, 3, 104);
+  text-decoration: none;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  width: 350px;
+  
+}
+
+.textL {
+  width: 500px;
+}
+    
+.text2 {
+  width:350px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
